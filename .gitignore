@@ -5,3 +5,4 @@ Debug
 oop-design-pattern.VC.VC.opendb
 *.db
 ipch/*
+*.opendb
