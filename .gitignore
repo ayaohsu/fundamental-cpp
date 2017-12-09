@@ -1,0 +1,7 @@
+.vs
+Debug
+.VC
+.VC.db
+oop-design-pattern.VC.VC.opendb
+*.db
+ipch/*
