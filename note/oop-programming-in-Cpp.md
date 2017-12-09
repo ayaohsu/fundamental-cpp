@@ -16,4 +16,16 @@
 ```
   - `using namespace std` directive: telling the preprocessor that the following statements are all in `std` namespace
 - __Variables__: the named storage in the program that we can manipulate
-  - size: is system dependent. Ex: int occupies 4 bytes(32 bits) in a 32-bit system
+  - `int` size: is system dependent. Ex: int occupies 4 bytes(32 bits) in a 32-bit system, 2 bytes in 16-bit systems
+  - `long` (or `long int`): fixed size of 4 bytes no matter what system is used
+  - `short`: fixed size of 2 bytes no matter what system is used
+- __floating point types__
+  - Format: (integer part).(fractional part)
+  - In computer, this is implemented as scientific notation, with the digital term and the exponential term
+  - __precision__ of a floating point type: how many ignificant digits it can _represent_ without information loss
+    - ex: `f = 1.2345f` will be 1.2345 in precision 5, but 1.23450005054 in precision 12
+  - `float`: handles precision of about 7 digits from 3.4×10^–38 to 3.4×10^38
+  - `double`: handles precision of about 15 digits from 1.7×10^–308 to 1.7×10^308
+- #define vs const for constants
+  - `#define PI 3.14159`: telling the compiler to replace PI with the text 3.14159 throughout the program
+  - Popular in C. However, you can't specify the data type, which can lead to bugs.
