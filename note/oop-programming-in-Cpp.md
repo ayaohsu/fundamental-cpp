@@ -29,3 +29,11 @@
 - #define vs const for constants
   - `#define PI 3.14159`: telling the compiler to replace PI with the text 3.14159 throughout the program
   - Popular in C. However, you can't specify the data type, which can lead to bugs.
+- __manipulator__: helper functions that are used to control the input/output streams.
+  - `setw(n)` sets the _field width_ for the output operation
+- __overflow__: caused by an arithmetic operation attempting to create a numeric value that is outside of the range that can be represented with a given number of bits
+  - `int intVariable = 1500000000*2/3;` where max of int is 2,147,483,647, which will be overflown temporarily by 3,000,000,000.
+  - the result will be incorrect: `-431655765`
+- __cast__: where programmer needs to convert one type to another in a situation where the compiler will not do it automatically or without complaint
+  - The purpose can be achieved by declaring a second variable with a different type, and assign to it; but this is hard to read the programmer's intention, and is verbose and redundant
+  - Three kinds of casting: static, dynamic, reintepret 
