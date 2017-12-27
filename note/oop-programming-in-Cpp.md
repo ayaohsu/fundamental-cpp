@@ -44,3 +44,6 @@
     - quatation marks instruct the compiler to begin its search for the header file in the current directory
   - Compiler generated the object code from the source code, and marks the reference to the library functions
   - Then linker resolves the reference by extract the executable code from the library files
+
+TODO: line 13, doesn't look like it is doing the copy and paste in the compile time
+"- `#include` tells the preprocessor to insert the specified file into the source file (literally)"
