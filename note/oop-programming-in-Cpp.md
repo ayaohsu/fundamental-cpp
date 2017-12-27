@@ -37,3 +37,10 @@
 - __cast__: where programmer needs to convert one type to another in a situation where the compiler will not do it automatically or without complaint
   - The purpose can be achieved by declaring a second variable with a different type, and assign to it; but this is hard to read the programmer's intention, and is verbose and redundant
   - Three kinds of casting: static, dynamic, reintepret 
+- __Compile and Linking__: 
+  - In the compile time, `#include` the header file that contains the declaration of the 1. library functions or 2. user function
+  - two ways to include: `<>` and `""`. 
+    - angle brackets indicates that the compiler will search the files from  INCLUDE directory
+    - quatation marks instruct the compiler to begin its search for the header file in the current directory
+  - Compiler generated the object code from the source code, and marks the reference to the library functions
+  - Then linker resolves the reference by extract the executable code from the library files
