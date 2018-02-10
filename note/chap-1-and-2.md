@@ -8,7 +8,7 @@
   - Wrapper: 'modifying/reducing' APIs, to make something general to be customized to our need (we need a term here _specification_)
 
 ## Chapter 2. Basics
-- __Statements__: statements are fragments of a program that execute in sequence and cause the computer to carry out some definite action.
+- __Statements__: execution unit in programming language to be executed in sequence and cause the computer to carry out some definite action.
   - expression statements (`x = 5;`)
   - compound statements (`if (condition) { action(); }`, the whole thing is an if statement)
 - __Expressions__: a sequence of operators and operands that specifies a computation
